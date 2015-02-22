@@ -1,3 +1,17 @@
+# ui.R
+# author: Eugene Jarder
+#
+# UI logic for the WoW Guild Distributions App. Uses the shinyDashboard package
+# for the layout.
+#
+
+# chart.box()
+# Displays a box that will be used for charts.
+#
+# parameters:
+#   title - The text to display on the box header
+#   width - the number of columns to occupy on the dashboard
+#
 chart.box <- function(title, chart.id) {
     box(
         title = title, solidHeader = T,
