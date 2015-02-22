@@ -31,9 +31,6 @@ dashboardPage(
         actionButton('submitButton', 'Submit')
     ),
     dashboardBody(
-        helpText('You can view the usage guide on the following link:',
-                 a('http://ejjarder.github.io/guild.distributions',
-                   href = 'http://ejjarder.github.io/guild.distributions')),
         helpText('TLDR: Select region, input realm, input guild,',
                  'select level range, Submit!'),
         h1(textOutput('guildName')),
